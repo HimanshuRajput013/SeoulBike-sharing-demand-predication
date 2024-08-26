@@ -1,4 +1,6 @@
 # SeoulBikeData-Regression-project
+![bike edaaaa](https://github.com/user-attachments/assets/fc7fce28-bd60-4f3f-bb9b-6dc784e8bf38)
+
 
 # Project Summery
 
