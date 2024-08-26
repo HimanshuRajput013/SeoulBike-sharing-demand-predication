@@ -85,3 +85,13 @@ Weekend : Weekend extracted from Day 1 when the day is Saturday or Sunday while 
 3. EDA
 4. Data Preparation
 5. Data Modeling
+6. 
+# Conclusion and Insight:
+1. In summer season highest number of bike was rented as compared to other seasons with count touching at 3500 while in winter season lowest number of bike was rented touching the count of close to just 1000. From this we can assume that people tends to rent more bikes in summer as compare to other seasons also people tends to rent less bike in winter season.
+2. During working day people tend to rent more bikes as around 3500 from this we can assume that on holidays people tends to rent less bike.
+Also we can see people tends to rent less or no bike during no functioning day.
+3. In weekend vs Rented Bike count we can see that people tends to rent more bike during weekdays as compared to weekends.
+4. After applying linear regression model, we got R2 score of 0.755 for training data and R2 score of 0.764 for test data, which signifies that model is optimally fit on both training and test data i.e. no overfitting is seen.
+5. We also tried Tree based classifiers for our data, we applied Decision Tree Regressor, with that we we got R2 score of 0.906 for training data and 0.849 for test data.
+6. To get better accuracy on tree based model, we applied Random forest, with that we got R2 score of 0.970 for training data and 0.919 for test data.
+7. Finally, we applied Gradient boost with parameters selected after grid search which resulted in highest R2 score of 1.000 for training data and 0.924 for test data.
