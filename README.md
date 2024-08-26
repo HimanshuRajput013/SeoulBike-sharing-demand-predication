@@ -95,3 +95,9 @@ Also we can see people tends to rent less or no bike during no functioning day.
 5. We also tried Tree based classifiers for our data, we applied Decision Tree Regressor, with that we we got R2 score of 0.906 for training data and 0.849 for test data.
 6. To get better accuracy on tree based model, we applied Random forest, with that we got R2 score of 0.970 for training data and 0.919 for test data.
 7. Finally, we applied Gradient boost with parameters selected after grid search which resulted in highest R2 score of 1.000 for training data and 0.924 for test data.
+
+Model	MAE	MSE	RMSE	R2_score	Adjusted R2
+0	Linear regression	4.446	34.537	5.877	0.755	0.748
+1	Dicision tree regression	2.508	14.574	3.818	0.906	0.880
+2	Random forest regression	1.329	4.635	2.153	0.970	0.960
+3	GRAIDENT BOOSTING REGRESSION	0.028	0.002	0.048	1.000	1.000
