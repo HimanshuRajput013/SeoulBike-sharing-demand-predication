@@ -59,7 +59,7 @@ Rented Bike Count : Number of bike rented which is our Dependent variable accord
 
 Hour: Hour feature which is in 24 hour format which tells us number bike rented per hour is int type.
 
-Temperature(°C): Temperature feature which is in celsius scale(°C) is Float type.
+Temperature: Temperature feature which is in celsius scale(°C) is Float type.
 
 Humidity(%): Feature humidity in air (%) which is int type.
 
